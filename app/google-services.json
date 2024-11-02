@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "112129603777",
+    "project_id": "topanime-89d4b",
+    "storage_bucket": "topanime-89d4b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112129603777:android:ef98f9675f6cab4b4a7c40",
+        "android_client_info": {
+          "package_name": "com.example.topanime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112129603777-uoupcfeilaskicboc17jkce457s02bkq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTFMagoOUdLBpF0V8XG1CVYDx-xz0Z_dk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112129603777-uoupcfeilaskicboc17jkce457s02bkq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

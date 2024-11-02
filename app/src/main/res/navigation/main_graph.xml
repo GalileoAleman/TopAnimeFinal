@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/anime_list_dest">
+    <fragment
+        android:id="@+id/anime_list_dest"
+        android:name="com.example.topanime.ui.animeList.AnimeListFragment"
+        android:label="fragment_anime_list"
+        tools:layout="@layout/fragment_anime_list" >
+        <action
+            android:id="@+id/action_anime_list_to_detail"
+            app:destination="@id/anime_detail_dest"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/anime_detail_dest"
+        android:name="com.example.topanime.ui.detail.AnimeDetailFragment"
+        android:label="AnimeDetailFragment"
+        tools:layout="@layout/fragment_anime_detail">
+        <argument
+            android:name="id"
+            app:argType="long"
+            android:defaultValue="0L" />
+        <argument
+            android:name="category"
+            app:argType="string" />
+    </fragment>
+</navigation>

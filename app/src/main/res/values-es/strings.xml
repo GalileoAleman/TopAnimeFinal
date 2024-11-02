@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TopAnime</string>
+    <string name="source">Fuente</string>
+    <string name="year">Año</string>
+    <string name="status">Estado</string>
+    <string name="episodes">Episodios</string>
+    <string name="duration">Duración</string>
+    <string name="rating">Clasificación</string>
+    <string name="score">Puntuación</string>
+    <string name="rank">Puesto</string>
+    <string name="popularity">Popularidad</string>
+    <string name="favorites">Favoritos</string>
+    <string name="season">Temporada</string>
+    <string name="studio">Estudio</string>
+    <string name="genres">Géneros</string>
+    <string name="permission_granted">Permiso concedido</string>
+    <string name="permission_denied">Permiso denegado</string>
+    <string name="permission_rationale">El permiso es necesario para el correcto funcionamiento de la aplicación.</string>
+    <string name="anime_image">Imagen del Anime</string>
+    <string name="email">Correo electronico</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="dont_have_an_account">¿No tienes cuenta?</string>
+    <string name="sign_up_here">Regístrese aquí</string>
+    <string name="an_authentication_error_occurred">Se ha producido un error de autenticación, inténtelo de nuevo.</string>
+    <string name="error_email_already_in_use">La dirección de correo electrónico ya está siendo utilizada por otra cuenta.</string>
+    <string name="error_invalid_credential">La credencial de autenticación suministrada está malformada o ha caducado.</string>
+    <string name="error_invalid_email">La dirección de correo está mal formateada.</string>
+    <string name="error_wrong_password">La contraseña no es válida o el usuario no tiene contraseña.</string>
+    <string name="error_credential_already_in_use">Esta credencial ya está asociada a otra cuenta de usuario.</string>
+    <string name="error_user_not_found">No hay ningún registro de usuario correspondiente a este identificador.</string>
+    <string name="error_weak_password">La contraseña introducida no es válida.</string>
+    <string name="error_missing_email">Debe facilitarse una dirección de correo electrónico.</string>
+    <string name="sign_in">Crear cuenta</string>
+    <string name="name">Nombre</string>
+    <string name="user_name">Nombre Usuario</string>
+    <string name="log_out">Cerrar sesión</string>
+    <string name="open">Abrir</string>
+    <string name="close">Cerrar</string>
+    <string name="top_animes">Mejores Animes</string>
+    <string name="season_now">Temporada Actual</string>
+    <string name="top_mangas">Mejores Mangas</string>
+    <string name="enter_valid_email_address">Ingrese un email valido</string>
+    <string name="enter_valid_password">Ingrese una contraseña valida</string>
+    <string name="error_anime_list">Error al cargar la lista de animes.</string>
+    <string name="storage_permission_to_select_an_image">Se requiere el permiso de almacenamiento para seleccionar una imagen</string>
+
+</resources>

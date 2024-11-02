@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name" translatable="false">TopAnime</string>
+    <string name="source">Source</string>
+    <string name="year">Year</string>
+    <string name="status">Status</string>
+    <string name="episodes">Episodes</string>
+    <string name="duration">Duration</string>
+    <string name="rating">Rating</string>
+    <string name="score">Score</string>
+    <string name="rank">Rank</string>
+    <string name="popularity">Popularity</string>
+    <string name="favorites">Favorites</string>
+    <string name="season">Season</string>
+    <string name="studio">Estudio</string>
+    <string name="genres">Genres</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="permission_rationale">Permission is required for the correct functioning of the application.</string>
+    <string name="anime_image">Anime image</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up_here">Sign_up here</string>
+    <string name="an_authentication_error_occurred">An authentication error occurred, please try again.</string>
+    <string name="error_email_already_in_use">The email address is already in use by another account.</string>
+    <string name="error_invalid_credential">The supplied auth credential is malformed or has expired.</string>
+    <string name="error_invalid_email">The email address is badly formatted.</string>
+    <string name="error_wrong_password">The password is invalid or the user does not have a password.</string>
+    <string name="error_credential_already_in_use">This credential is already associated with a different user account.</string>
+    <string name="error_user_not_found">There is no user record corresponding to this identifier.</string>
+    <string name="error_weak_password">The given password is invalid.</string>
+    <string name="error_missing_email">An email address must be provided.</string>
+    <string name="sign_in">Sign in</string>
+    <string name="name">Name</string>
+    <string name="user_name">User Name</string>
+    <string name="log_out">Log out</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="top_animes">Top Animes</string>
+    <string name="season_now">Season Now</string>
+    <string name="top_mangas">Top Mangas</string>
+    <string name="enter_valid_email_address">Enter a valid email address</string>
+    <string name="enter_valid_password">Enter a valid password</string>
+    <string name="error_anime_list">Error loading anime list.</string>
+    <string name="storage_permission_to_select_an_image">Storage permission is required to select an image.</string>
+
+</resources>

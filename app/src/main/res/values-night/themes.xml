@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TopAnime" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondaryVariant</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimary</item>
+        <item name="android:titleTextColor" tools:targetApi="m">?attr/colorSecondary</item>
+
+        <!-- Customize your theme here. -->
+        <item name="textInputStyle">@style/TextInputLayout</item>
+        <item name="android:textColor">@color/firstText</item>
+    </style>
+
+    <style name="Theme.TopAnime.NoActionBar" parent="Theme.TopAnime">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.TopAnime.NoActionBar.Login" parent="Theme.TopAnime.NoActionBar">
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.TopAnime.NoActionBar">
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowBackground">@drawable/splash_bg</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/secondary</item>
+    </style>
+
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/secondary</item>
+        <item name="startIconTint">@color/secondaryText</item>
+        <item name="android:textColorHint">@color/secondaryText</item>
+        <item name="hintTextColor">@color/secondaryVariant</item>
+        <item name="endIconTint">@color/secondaryText</item>
+        <item name="prefixTextColor">@color/secondaryText</item>
+        <item name="colorControlActivated">@color/teal_200</item>
+        <item name="colorPrimary">@color/teal_200</item>
+    </style>
+
+    <style name="Theme.TopAnime.TextInputEditText.OutlinedBox" parent="">
+        <item name="colorControlActivated">@color/teal_200</item>
+        <item name="colorPrimary">@color/teal_200</item>
+    </style>
+
+</resources>
